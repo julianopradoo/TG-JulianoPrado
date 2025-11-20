@@ -167,7 +167,7 @@ Pensamento analítico - Para desenvolver a modelagem do Banco de Dados, foi nece
 **Data:** *Agosto 2024*</br></br>
 **Empresa:** *Kersys*</br></br>
 **Área de atuação da empresa:** *A Kersys é uma empresa brasileira que atua no desenvolvimento de soluções tecnológicas para a gestão florestal e do agronegócio*</br></br>
-**Desafio:** Como uma empresa atuante no ramo do desenvolvimento tecnológico agronegócio, a Kerseys pretente criar um aplicativo para auxiliar os produtores rurais a acompanhar o histórico das variações das informações climáticas de uma determinada lavoura, ou de um determonado ponto. Como os produtores muitas vezes estão em locais de pouco contato tecnológico, o aplicativo deve funcionar sem o uso da internet, além de ser simples e intuitivo.  </br></br>
+**Desafio:** Como uma empresa atuante no ramo do desenvolvimento tecnológico agronegócio, a Kerseys pretente criar um aplicativo para auxiliar os produtores rurais a acompanhar o histórico das variações das informações climáticas de uma determinada lavoura, ou de um determinado ponto. Como os produtores muitas vezes estão em locais de pouco contato tecnológico, o aplicativo deve funcionar sem o uso da internet, além de ser simples e intuitivo.  </br></br>
 **Solução:**  </br> Para solucionar o desafio, nossa equipe desenvolveu um aplicativo mobile através do Android Studio utilizando React Native.  O aplicativo deve permitir aos usuários cadastrar seus pontos, e acompanhar via gráficos a variação da pluviometria e da temperatura a partir de uma data informada, até a data atual. O aplicativo também deve ter a capacidade de exibir dados consolidados de temperatura, pluviometria por ano ou mês e emitir notificações e alertas em caso de situações críticas.</br>
 
 **GitHub:** [Documentação] https://github.com/Equipe-FULLSTACK/API-5 </br></br>
@@ -200,6 +200,49 @@ No projeto do quinto semestre atuei como desenvolvedor. Fui responsável pela mo
 Adaptação às novas tecnologias - Para realizar a implementação do banco de dados não relacional, foi necessário um tempo para aprender conceitos da modelagem NoSQL, e posteriormente aprender a manipular o Banco de dados MongoDB.
 
 Trabalho em equipe - Por se tratar do quinto semestre, a convivência com meus colegas já estava em um nivel de afinidade maior. Sendo assim, pude desenvolver muito o lado de trabalho em equipe pois todos os membros sentiam-se a vontade para tirar dúvidas, debater opiniões e até mesmo apontar erros e corrigir pontos falhos sem receio nenhum.
+
+
+
+</details>
+
+<details>
+<summary>6º Semestre</summary>
+</br>
+
+**Data:** *Fevereiro 2025*</br></br>
+**Empresa:** *Dom Rock*</br></br>
+**Área de atuação da empresa:** *Empresa especializada em Inteligência Artificial e análise de dados*</br></br>
+**Desafio:** O problema detectado é que cuidadores de pessoas com Alzheimer costumam recorrer a modelos de linguagem (LLMs) em busca de orientação, mas não dispõem de formas confiáveis de confirmar se as respostas fornecidas são corretas e seguras. No cenário atual, quando um cuidador faz uma pergunta a esses sistemas, não existe garantia de que a informação recebida seja clinicamente apropriada, atualizada ou isenta de riscos para o paciente. Algumas respostas podem trazer sugestões inadequadas, dados desatualizados ou orientações que não seguem práticas médicas reconhecidas. Diante disso, o desafio apontado pela Dom Rock em colaboração com neurocientistas foi criar um mecanismo de revisão e validação humana das respostas geradas pelos LLMs antes que cheguem aos cuidadores. </br></br>
+**Solução:** A solução apresentada consiste em uma plataforma web que permite a pesquisadores submeter perguntas e avaliar respostas de diversos modelos, considerando critérios como consistência, embasamento científico e segurança clínica. Dessa forma, eles contribuem para o aperfeiçoamento contínuo desses sistemas por meio de Aprendizado por Reforço com Feedback Humano (RLHF) </br></br>
+
+**GitHub:** [Projeto] https://github.com/FATEC-FULLSTACK/API6 </br></br>
+            [Frontend] https://github.com/FATEC-FULLSTACK/FRONTEND-API6S/tree/main </br></br>
+            [Backend] [https://github.com/FATEC-FULLSTACK/BACKEND-API6S/tree/52a3fa6f94cbc034aba04ae0608c4b1fc33e02f5](https://github.com/FATEC-FULLSTACK/BACKEND-API6S/tree/main) </br></br>
+
+<h2 align="center">Tecnologias Utilizadas</h1>
+
+- Figma - Utilizado para desenvolver o protótipo apresentado ao cliente.
+- VScode - Utilizado para o desenvolvimento do código de todo o projeto.
+- Vue.js - Framework front-end para construção de interfaces dinâmicas.
+- Python - Linguagem principal do back-end.
+- FastAPI - Framework para construção de APIs rápidas e escaláveis.
+- LangChain - Integração com modelos de linguagem e RAG (Retrieval-Augmented Generation).
+- MongoDB - Banco de dados utilizado para a persistência de dados quando há conexão com a internet, devido à sua flexibilidade e escalabilidade.
+
+<h2 align="center">Contribuições Pessoais</h1>
+
+
+
+
+<h2 align="center">Hard Skills</h1>
+
+1. **Vue.js**: Sei fazer com ajuda.
+2. **MongoDB**: Sei fazer com autonomia.
+3. **FastAPI**: Sei fazer com ajuda.
+4. **LangChain**: Sei fazer com ajuda.
+
+<h2 align="center">Soft Skills</h1>
+
 
 
 
