@@ -231,6 +231,21 @@ Trabalho em equipe - Por se tratar do quinto semestre, a convivência com meus c
 
 <h2 align="center">Contribuições Pessoais</h1>
 
+Revisão do contexto da LLM - 
+O tratamento do contexto de uma LLM (Large Language Model) refere-se a tudo o que envolve como o modelo recebe, organiza, interpreta, mantém e utiliza informações durante uma conversa ou tarefa.
+Em outras palavras, é o conjunto de técnicas e processos que permitem que o modelo entenda o que já foi dito antes e responda de forma coerente, segura e relevante.
+Minha função foi revisar o contexto presente em nossa LLM, pois o mesmo estava fornecendo muitas informações de maneira muito detalhada, muitas vezes sem necessidade. A missão foi criar um template que respondesse de forma técnica, mas de uma maneira objetiva e simplificada.
+
+Integração Frontend-Backend - 
+Também tive a oportunidade de fazer a integração do frontend com o backend, permitindo com que as duas partes do sistema funcionassem juntas de maneira coordenada, através de técnicas como: 
+- Configuração da chamada ao backend (axios.post)
+- Envio da mensagem do usuário e ID para o servidor
+- Recebimento da resposta da API
+- Emissão de evento para atualizar o chat com a resposta do backend
+
+Ajustes Frontend - 
+E ainda pude contribuir com pequenos ajustes no frontend, como a explicação de cada critério através de um Tooltip, que é acionado ao passar o mouse por cima de cada tópico, fazendo com que um texto verde apareça na tela ajudando a compreender o critério avaliado. 
+
 
 
 
@@ -243,6 +258,11 @@ Trabalho em equipe - Por se tratar do quinto semestre, a convivência com meus c
 
 <h2 align="center">Soft Skills</h1>
 
+Adaptabilidade – Nesse projeto, atuei em diferentes áreas como IA, frontend e integração com backend, desenvolvendo flexibilidade para atuar em vários contextos, aprendendo ferramentas e processos novos rapidamente.
+
+Pensamento crítico - Revisar o contexto da LLM exigiu avaliar: Se as respostas eram adequadas, quando estavam extensas demais, o que precisava ser ajustado. Com isso desenvolvi a capacidade de analisar problemas, identificar falhas e propor soluções lógicas.
+
+Atenção aos detalhes - Criar tooltips, revisar contexto e melhorar a interação do usuário exigem cuidado com pequenos elementos que afetam a experiência final
 
 
 
