@@ -263,11 +263,11 @@ E ainda pude contribuir com pequenos ajustes no frontend, com contribuições fo
 
 <h2 align="center">Soft Skills</h1>
 
-Adaptabilidade – Nesse projeto, atuei em diferentes áreas como IA, frontend e integração com backend, desenvolvendo flexibilidade para atuar em vários contextos, aprendendo ferramentas e processos novos rapidamente.
+Comunicação Clara e Simplificada: Eu transformei um problema de comunicação complexo (o excesso de detalhes do LLM) em uma solução direta. Minha ação de criar um novo template de contexto é a prova de que sou capaz de destilar informações técnicas para que a resposta final seja objetiva e eficiente para o usuário.
 
-Pensamento crítico - Revisar o contexto da LLM exigiu avaliar: Se as respostas eram adequadas, quando estavam extensas demais, o que precisava ser ajustado. Com isso desenvolvi a capacidade de analisar problemas, identificar falhas e propor soluções lógicas.
+Colaboração Interdisciplinar: A integração bem-sucedida entre Frontend e Backend exigiu que eu coordenasse tecnicamente dois domínios distintos. Eu precisei comunicar precisamente as necessidades de dados (IDs e mensagens) e as expectativas de tratamento de resposta para garantir que o fluxo (configuração do axios.post e emissão de eventos) fosse perfeito.
 
-Atenção aos detalhes - Criar tooltips, revisar contexto e melhorar a interação do usuário exigem cuidado com pequenos elementos que afetam a experiência final
+Empatia: Eu demonstrei preocupação com a experiência de quem usa o sistema. Minha ação de implementar Tooltips com explicações concisas mostra que eu antecipei a confusão do usuário com os critérios e forneci proativamente uma ajuda contextual, melhorando a usabilidade.
 
 
 
