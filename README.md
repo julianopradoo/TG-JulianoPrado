@@ -212,8 +212,12 @@ Trabalho em equipe - Por se tratar do quinto semestre, a convivência com meus c
 **Data:** *Fevereiro 2025*</br></br>
 **Empresa:** *Dom Rock*</br></br>
 **Área de atuação da empresa:** *Empresa especializada em Inteligência Artificial e análise de dados*</br></br>
-**Desafio:** O problema detectado é que cuidadores de pessoas com Alzheimer costumam recorrer a modelos de linguagem (LLMs) em busca de orientação, mas não dispõem de formas confiáveis de confirmar se as respostas fornecidas são corretas e seguras. No cenário atual, quando um cuidador faz uma pergunta a esses sistemas, não existe garantia de que a informação recebida seja clinicamente apropriada, atualizada ou isenta de riscos para o paciente. Algumas respostas podem trazer sugestões inadequadas, dados desatualizados ou orientações que não seguem práticas médicas reconhecidas. Diante disso, o desafio apontado pela Dom Rock em colaboração com neurocientistas foi criar um mecanismo de revisão e validação humana das respostas geradas pelos LLMs antes que cheguem aos cuidadores. </br></br>
-**Solução:** A solução apresentada consiste em uma plataforma web que permite a pesquisadores submeter perguntas e avaliar respostas de diversos modelos, considerando critérios como consistência, embasamento científico e segurança clínica. Dessa forma, eles contribuem para o aperfeiçoamento contínuo desses sistemas por meio de Aprendizado por Reforço com Feedback Humano (RLHF) </br></br>
+**Problema:** O problema detectado é que cuidadores de pessoas com Alzheimer costumam recorrer a modelos de linguagem (LLMs) em busca de orientação, mas não dispõem de formas confiáveis de confirmar se as respostas fornecidas são corretas e seguras. No cenário atual, quando um cuidador faz uma pergunta a esses sistemas, não existe garantia de que a informação recebida seja clinicamente apropriada, atualizada ou isenta de riscos para o paciente. Algumas respostas podem trazer sugestões inadequadas, dados desatualizados ou orientações que não seguem práticas médicas reconhecidas. </br></br>
+**Desafio:** Diante disso, o desafio apontado pela Dom Rock em colaboração com neurocientistas foi criar um mecanismo de revisão e validação humana das respostas geradas pelos LLMs antes que cheguem aos cuidadores. </br></br>
+**Solução:** A solução apresentada consiste em uma plataforma web que permite a pesquisadores submeter perguntas e avaliar respostas de diversos modelos, considerando critérios como consistência, embasamento científico e segurança clínica. Dessa forma, eles contribuem para o aperfeiçoamento contínuo desses sistemas por meio de Aprendizado por Reforço com Feedback Humano (RLHF).
+A arquitetura técnica do projeto combinou Vue.js no front-end, Python com FastAPI e LangChain no back-end, e MongoDB como banco de dados principal, além de integração com bancos vetoriais para recuperação eficiente de informações. 
+Os modelos de LLMs utilizados para a comparação de respostas foram: OpenAI, Gemini, DeepSeek, Grog.
+</br></br>
 
 **GitHub:** [Projeto] https://github.com/FATEC-FULLSTACK/API6 </br></br>
             [Frontend] https://github.com/FATEC-FULLSTACK/FRONTEND-API6S/tree/main </br></br>
@@ -231,20 +235,21 @@ Trabalho em equipe - Por se tratar do quinto semestre, a convivência com meus c
 
 <h2 align="center">Contribuições Pessoais</h1>
 
+Minha participação no projeto abrangeu áreas cruciais, focando na otimização da coerência e eficiência da LLM, além da integração sistêmica e melhorias na experiência do usuário (UX).
+
 Revisão do contexto da LLM - 
-O tratamento do contexto de uma LLM (Large Language Model) refere-se a tudo o que envolve como o modelo recebe, organiza, interpreta, mantém e utiliza informações durante uma conversa ou tarefa.
-Em outras palavras, é o conjunto de técnicas e processos que permitem que o modelo entenda o que já foi dito antes e responda de forma coerente, segura e relevante.
-Minha função foi revisar o contexto presente em nossa LLM, pois o mesmo estava fornecendo muitas informações de maneira muito detalhada, muitas vezes sem necessidade. A missão foi criar um template que respondesse de forma técnica, mas de uma maneira objetiva e simplificada.
+O desafio principal foi aprimorar o tratamento do contexto da LLM, que estava resultando em respostas excessivamente longas e detalhadas. O contexto refere-se a todo o processo de como o modelo recebe, organiza, interpreta, mantém e utiliza informações prévias para gerar respostas relevantes e coerentes.
+Minha função, foi realizar uma revisão completa do processo de contextualização, e para isso, Criei um novo template de contexto, garantindo que as respostas da LLM fossem objetivas, simplificadas e tecnicamente precisas, resolvendo o problema da verbosidade desnecessária.
 
 Integração Frontend-Backend - 
-Também tive a oportunidade de fazer a integração do frontend com o backend, permitindo com que as duas partes do sistema funcionassem juntas de maneira coordenada, através de técnicas como: 
+Também fui responsável por fazer a integração do frontend com o backend, permitindo com que as duas partes do sistema funcionassem juntas de maneira coordenada, através de técnicas como: 
 - Configuração da chamada ao backend (axios.post)
 - Envio da mensagem do usuário e ID para o servidor
 - Recebimento da resposta da API
 - Emissão de evento para atualizar o chat com a resposta do backend
 
 Ajustes Frontend - 
-E ainda pude contribuir com pequenos ajustes no frontend, como a explicação de cada critério através de um Tooltip, que é acionado ao passar o mouse por cima de cada tópico, fazendo com que um texto verde apareça na tela ajudando a compreender o critério avaliado. 
+E ainda pude contribuir com pequenos ajustes no frontend, com contribuições focadas em aprimorar a usabilidade e a clareza da interface, fazendo a implementação de Tooltips em critérios de avaliação. Ao passar o mouse sobre cada tópico, é acionado um texto auxiliar que fornece uma explicação do critério avaliado, melhorando a compreensão e a interação do usuário com a plataforma.
 
 
 
